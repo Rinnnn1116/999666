@@ -1,0 +1,154 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.expert {
+    width: 95%;
+    padding: 5%;
+    margin: 0.63rem auto;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+/* .expert dl {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+} */
+
+.expert dl dt {
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.expert dl dd {
+    font-size: 0.88rem;
+    color: #666;
+}
+
+.expert-item {
+    width: 100%;
+    height: 5.5rem;
+    border-radius: 0.63rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.expert-item .picture {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+    border: 2px solid pink;
+    margin: 0 0.63rem 0 0;
+}
+
+.expert-item .type {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.expert-item figcaption h3 {
+    font-size: 1rem;
+}
+
+.expert-item figcaption p {
+    font-size: 0.88rem;
+    color: #c41b30;
+    margin: 5px 0;
+}
+
+.expert-item figcaption .address {
+    font-size: 0.75rem;
+    margin: 5px 0;
+}
+
+.expert-item figcaption ul {
+    display: flex;
+    gap: 0.31rem;
+}
+
+.expert-item figcaption ul li {
+    background: #c41b30;
+    font-size: 0.75rem;
+    padding: 0 0.31rem;
+    box-sizing: border-box;
+    border-radius: 0.19rem;
+    color: #fff;
+}
+
+.exampleTitle {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exampleTitle a {
+    font-size: 1.5rem;
+    color: #c41b30;
+}
+
+.exampleTitle h2 {
+    font-size: 0.88rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.63rem;
+}
+
+.exampleTitle h2 span {
+    display: inline-block;
+    width: 0.31rem;
+    height: 0.94rem;
+    background: #FF3B30;
+    border-radius: 1.25rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.examples {
+    width: 95%;
+    height: 6.38rem;
+    background: #fff;
+    margin: 0.63rem auto;
+    padding: 0.63rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.examples li:nth-child(1) {
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+}
+
+.examples li:nth-child(1) span {
+    color: green;
+    font-size: 0.88rem;
+    background: #F0FDF4;
+    padding: 0.13rem 0.71rem;
+    border-radius: 1.25rem;
+}
+
+.examples li:nth-child(2) span {
+    color: green;
+    font-size: 0.88rem;
+    background: #F0FDF4;
+    padding: 0.13rem 0.71rem;
+    border-radius: 1.25rem;
+}
+
+.examples li:nth-child(3) {
+    font-size: 0.75rem;
+    color: #888;
+}

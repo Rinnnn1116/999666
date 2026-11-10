@@ -1,0 +1,16 @@
+.msgDetail {
+    width: 100%;
+}
+
+.msgDetail h2 {
+    font-size: 1.13rem;
+    color: #333;
+    padding: 1.25rem 0.63rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.msgDetail .detail {
+    padding: 0.63rem;
+    box-sizing: border-box;
+}

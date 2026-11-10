@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>我的</title>
+		<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_5218003_ptjekvebj7n.css" />
+		<link rel="stylesheet" href="./css/common.css" />
+		<link rel="stylesheet" href="./css/mine.css" />
+	</head>
+	<body>
+		<nav class="nav">
+			<h2>我的</h2>
+		</nav>
+
+		<header class="mine-header">
+			<div class="top"></div>
+			<figure class="expert-item">
+				<img src="./img/avatar.png" class="picture" />
+				<span class="iconfont icon-erweima type"></span>
+				<figcaption>
+					<h3>公益达人李杰</h3>
+					<p><span class="iconfont icon-darenku"></span>12.8W</p>
+					<ul>
+						<li>公益</li>
+						<li>政务能量</li>
+						<li>本地咨询</li>
+					</ul>
+				</figcaption>
+			</figure>
+		</header>
+
+		<div class="mine">
+			<ul>
+				<li class="iconfont icon-gongsi1"></li>
+				<li>我的认证</li>
+				<li class="iconfont icon-gengduo"></li>
+			</ul>
+			<ul>
+				<li class="iconfont icon-shipin"></li>
+				<li>媒体账号</li>
+				<li class="iconfont icon-gengduo"></li>
+			</ul>
+			<ul>
+				<li class="iconfont icon-gongsi1"></li>
+				<li>我的任务</li>
+				<li class="iconfont icon-gengduo"></li>
+			</ul>
+			<ul>
+				<li class="iconfont icon-mima1"></li>
+				<li>账号安全</li>
+				<li class="iconfont icon-gengduo"></li>
+			</ul>
+			<ul>
+				<li class="iconfont icon-gongsi1"></li>
+				<li>关于平台</li>
+				<li class="iconfont icon-gengduo"></li>
+			</ul>
+
+			<button class="loginOut">退出登录</button>
+		</div>
+
+		<footer class="tabbar">
+			<figure>
+				<a href="./index.html">
+					<span class="iconfont icon-shouye"></span>
+					<figcaption>首页</figcaption>
+				</a>
+			</figure>
+			<figure>
+				<a href="./task.html">
+					<span class="iconfont icon-darenku1"></span>
+					<figcaption>任务大厅</figcaption>
+				</a>
+			</figure>
+			<figure>
+				<a href="./expert.html">
+					<span class="iconfont icon-darenku"></span>
+					<figcaption>达人库</figcaption>
+				</a>
+			</figure>
+			<figure>
+				<a href="./mine.html">
+					<span class="iconfont icon-hezuohuoban"></span>
+					<figcaption>我的</figcaption>
+				</a>
+			</figure>
+		</footer>
+		<div class="mask">
+			<main>
+				<img src="./img/qCode.png" alt="" />
+			</main>
+		</div>
+
+	</body>
+</html>
+<script>
+	window.onload = function() {
+		let icon = document.getElementsByClassName("type")[0];
+		let mask = document.getElementsByClassName("type")[0];
+		console.log(icon)
+		icon.onclick = function() {
+			mask.style.display = "block"
+		}
+		mask.onclick = function() {
+			msk.style.display = "none"
+		}
+		let btn = document.getElementsByClassName("loginOut")[0];
+		btn.onclick = function() {
+			location.href = "login.html"
+		}
+	}
+</script>

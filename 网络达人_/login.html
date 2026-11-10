@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>登录</title>
+		<link rel="stylesheet" href="./css/common.css" />
+		<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_5218003_ptjekvebj7n.css" />
+		<link rel="stylesheet" href="./css/login.css" />
+	</head>
+	<body>
+		<!-- 顶部导航 -->
+		<nav class="nav">
+			<h2>标题</h2>
+			<div class="capsule">
+				<span class="dot">...</span>
+				<span class="circle"></span>
+			</div>
+		</nav>
+
+		<!-- Logo -->
+		<figure class="logo">
+			<img src="./img/logo.png" alt="logo" class="logo-img" />
+			<figcaption>
+				<h2>河北省正能量网络名人综合服务平台</h2>
+				<span>创意协作，从这里开始</span>
+			</figcaption>
+		</figure>
+
+		<!-- Tab切换栏 -->
+		<ul class="tabBar">
+			<li class="iconfont icon-gongsi1 active">政企</li>
+			<li class="iconfont icon-daren">达人</li>
+			<li class="iconfont icon-darenquan">达人机构</li>
+		</ul>
+
+		<!-- 登录表单 -->
+		<form class="loginForm">
+			<section class="formItem">
+				<label for="phoneNumber">手机号</label>
+				<input type="tel" name="phoneNumber" id="phoneNumber" placeholder="请输入手机号" />
+				<span class="iconfont icon-shouji"></span>
+			</section>
+			<section class="formItem">
+				<label for="pwd">密码</label>
+				<input type="password" name="pwd" id="pwd" placeholder="请输入密码" />
+				<span class="iconfont icon-mima2"></span>
+				<strong class="iconfont icon-yanjing-guan"></strong>
+			</section>
+		</form>
+
+		<a href="#" class="forgetPwd">忘记密码?</a>
+
+		<div class="servicePrivacy">
+			<span class="iconfont icon-chenggong active"></span>
+			<p>已阅读并同意<a href="#">《服务协议》</a>和<a href="#">《隐私政策》</a></p>
+		</div>
+
+		<button class="loginBtn">登录</button>
+		<a href="#" class="reg">还没有账号？立即注册</a>
+
+		<script src="./js/login.js"></script>
+		<script>
+			window.onload = function() {
+				let btn = document.getElementsByClassName("loginBtn")[0];
+				btn.onclick = function() {
+					location.href = "index.html"
+				}
+			}
+		</script>
+	</body>
+</html>
